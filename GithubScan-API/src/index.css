@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Space+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Mono', monospace;
+  color: #00ff33;
+}
+
+:root {
+  background-color: #000;
+}
+
+*::selection {
+  color: #000;
+  background-color: #00ff33;
+}
+
+body {
+  padding: 0 24px;
+}
